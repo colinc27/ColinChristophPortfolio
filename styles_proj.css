@@ -17,10 +17,10 @@
 
 
     .card {
-        justify-content: center;
         flex-direction: row;
         align-items: center;
         max-width: 700px;
+        min-width: 600px;
       }
       .card-title {
         font-weight: bold;
@@ -49,3 +49,10 @@
           width: 40%;
         }
       }
+
+       /* .bodyy{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
+      } */
